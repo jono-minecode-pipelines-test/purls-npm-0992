@@ -1,0 +1,77 @@
+{
+    "name": "00-components",
+    "version": "0.5.0",
+    "private": false,
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "storybook": "start-storybook -p 9009",
+        "build-storybook": "build-storybook"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "peerDependencies": {
+        "react": "^16.x",
+        "react-dom": "^16.x",
+        "styled-components": "^4.x"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@storybook/addon-actions": "^4.1.11",
+        "@storybook/addon-links": "^4.1.11",
+        "@storybook/addons": "^4.1.11",
+        "@storybook/react": "^4.1.11",
+        "babel-loader": "^8.0.5",
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1",
+        "react-scripts": "^2.1.5",
+        "styled-components": "^4.1.3"
+    },
+    "gitHead": "f7c6df1436ba9397c1f6480336b7f8fb76f1e424",
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "_id": "00-components@0.5.0",
+    "_nodeVersion": "10.14.0",
+    "_npmVersion": "lerna/3.11.1/node@v10.14.0+x64 (darwin)",
+    "dist": {
+        "integrity": "sha512-g9oGt7rDcgWRdZA1Yvny/5ulhQKsj5CSPyAKOgrQ7TxvTtFPiiqz8NqThg7aB9+v/coc5RFMk26zhKTRrW2sKg==",
+        "shasum": "66161701a55b7435492baffa505df605b84b15fe",
+        "tarball": "https://registry.npmjs.org/00-components/-/00-components-0.5.0.tgz",
+        "fileCount": 11,
+        "unpackedSize": 22343,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZW/GCRA9TVsSAnZWagAABMMP/3Lnz0TvF0oSPr1B9t+e\ntDWw6SgG13R1IefsMGpaRz+DEpIvdHXG/ID4EgLMEcPG9abyS4vQO5MTRJ2G\ngB9+3c30G1DJ8/DwS+EVCKjp9qMnxyYuMUGValM8rbfHQxD7do3peVMIG7Ba\n/E7IKTVj1OuVPHC/SL6FU2Td29Lvqd5sxgRKIH8GZfFZ9oho31j9L9btnIgf\nhF+8azsjsRHJC9+xS7w/0i/GwtyepY8Ny6pS5ap+TOjMbkGyxTBX14H/kFqI\nnP72V1zLXGyJqUh5aTk1zC2kUdIDQh0bHJjjdum26LV0T60607wVAn8ZU+IU\nKuY5LDTUb1GZUa3e61SzQl16tuPijnZg3WW552flvgb/PGKrUEjiM1TZGQ6S\nkxJ8NVI/FKdtTlo1fC7IOWi9+kS8xzmCVZkQ5zmDxSSo7U7xwmvSB5Bff3o7\nVMkYp/vYqZoCGPW1DrID1P2r6BSEX1ymMxX8xw+xcmVCR0OUAAO/hpK+hnxq\nX6KapfvUYTCmkA+MX3V7MBNaL3G7u0FFsq6bmEllNzGa0gxE0qB3demxm4Yn\nk5wAupgTv0LrxBterBZJZLD7wCH57AgTqoWGjxFJwNN+lzmpxDflCHT9Ivy7\nY4KYzqjxSKT2MKi5skNxy9JPk1NgbeNMzMRVjBgM9cPsv12ae1sMRk+fEbEd\noGZP\r\n=sZeK\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCwpO9gi7lyqMhQ5HUQpyW+dSu4Ss+OoXek+dI5/FlQlwIgbMqSDT60sq4pRyCaVdok1+zYnjOTsmpVsK0lnfsEdEA="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "storo90",
+            "email": "sergio.toro.castano@gmail.com"
+        }
+    ],
+    "_npmUser": {
+        "name": "storo90",
+        "email": "sergio.toro.castano@gmail.com"
+    },
+    "directories": {},
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/00-components_0.5.0_1550151622314_0.1417557481704288"
+    },
+    "_hasShrinkwrap": false
+}
