@@ -1,0 +1,51 @@
+{
+    "name": "-greact-docgen",
+    "version": "1.0.0",
+    "description": "@satoki00",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node index.js"
+    },
+    "keywords": [
+        "hack"
+    ],
+    "author": {
+        "name": "Satoki",
+        "email": "t.satoki111@gmail.com",
+        "url": "https://github.com/satoki"
+    },
+    "license": "ISC",
+    "_id": "-greact-docgen@1.0.0",
+    "_nodeVersion": "21.1.0",
+    "_npmVersion": "10.2.0",
+    "dist": {
+        "integrity": "sha512-9huoa3RXErTnvuOsGy83xowSWKx6f7J45QTF+9YsOghUH11EhGlURX0tyn0B9d9iGnLqWyC/omr7lHgpGCu3mA==",
+        "shasum": "4207765ea001b2fce12c2c29606ade6c474d6191",
+        "tarball": "https://registry.npmjs.org/-greact-docgen/-/-greact-docgen-1.0.0.tgz",
+        "fileCount": 2,
+        "unpackedSize": 685,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCI8DYUdYiZRvWU8qqPQNaAjXzbq0sH5GL3o44vQ6p1YQIhAKnvvloUHHAuBiHLtYKAlM2AxDxAgd3mCfbsKWfnPJbu"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "satoki00",
+        "email": "t.satoki111@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "satoki00",
+            "email": "t.satoki111@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-greact-docgen_1.0.0_1721378915805_0.8065242775077655"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,65 @@
+{
+    "name": "--ui-com-ponents--md",
+    "version": "1.0.0",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "scripts": {
+        "dev": "pnpm -C play dev",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.7.0",
+    "workspaces": [
+        "packages/components",
+        "packages/theme-chalk",
+        "packages/utils"
+    ],
+    "dependencies": {
+        "@my-ui/components": "workspace:^",
+        "@my-ui/theme-chalk": "workspace:^",
+        "@my-ui/utils": "workspace:^",
+        "typescript": "^5.8.3",
+        "vue": "^3.5.16"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.2.3",
+        "sass-embedded": "^1.89.1",
+        "vite": "^6.3.5"
+    },
+    "_id": "--ui-com-ponents--md@1.0.0",
+    "gitHead": "71db3e18800f516c886fb230bf68e5519f3afa00",
+    "_nodeVersion": "18.20.8",
+    "_npmVersion": "10.8.2",
+    "dist": {
+        "integrity": "sha512-LZr3rtjW7vPewNy6teB5FIGkWs6rRxEmPSMcQPl1ZJKRYdh7G/5fPOHmGMo83WD3TpUai3Fkyisbo8UwFWF3dg==",
+        "shasum": "7a0670beafdee9f7f8e6ef8a199f72d7dfd28a05",
+        "tarball": "https://registry.npmjs.org/--ui-com-ponents--md/-/--ui-com-ponents--md-1.0.0.tgz",
+        "fileCount": 44,
+        "unpackedSize": 1103317,
+        "signatures": [
+            {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEUCIQDNuJ0C+D2xVgFNGve6E7bEY6gV2AVkgPFhfZBxthqKVwIgFP3tppdtmIjKxZUR5FVHLPm8Pb4n2S/+e88uWHbARYI="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "airoe",
+        "email": "17821008188@163.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "airoe",
+            "email": "17821008188@163.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/--ui-com-ponents--md_1.0.0_1748932466976_0.48253696483445463"
+    },
+    "_hasShrinkwrap": false
+}
